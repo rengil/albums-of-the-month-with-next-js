@@ -33,8 +33,10 @@ const CardStyled = styled(Card)`
 
 const breatheAnimation = keyframes`
  0% { top: 0px;}
- 100% { top: 82px; 
-  }
+ 50% { top: 82px;}
+
+ 100% { top: 0px;}
+
 `
 
 const AbsoluteContent = styled(Box)`

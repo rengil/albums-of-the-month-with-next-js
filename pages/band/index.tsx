@@ -1,8 +1,8 @@
 import React, {useState} from 'react'
 import {useRouter, Router} from 'next/router'
 import {route} from 'next/dist/next-server/server/router'
-import {getAlbums} from './data';
-import {Album} from './model/Album';
+import {getAlbums} from '../../domain/data';
+import {Album} from '../../domain/model/Album';
 import  { keyframes } from 'styled-components'
 import styled from '@emotion/styled'
 import {
@@ -34,7 +34,6 @@ const CardStyled = styled(Card)`
 const breatheAnimation = keyframes`
  0% { top: 0px;}
  50% { top: 82px;}
-
  100% { top: 0px;}
 
 `

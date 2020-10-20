@@ -7,10 +7,18 @@
     "start": "next start"
   },
   "dependencies": {
+    "@rebass/preset": "^4.0.5",
+    "emotion-theming": "^10.0.27",
     "firebase": "7.17.0",
     "next": "latest",
     "react": "^16.13.0",
-    "react-dom": "^16.13.0"
+    "react-dom": "^16.13.0",
+    "rebass": "^4.0.7",
+    "rebass-next": "^2.0.2"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^16.9.53",
+    "typescript": "^4.0.3"
+  }
 }
